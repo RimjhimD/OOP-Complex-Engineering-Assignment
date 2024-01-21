@@ -1,0 +1,131 @@
+Capital Banking
+Functionalities:
+Manage Customer Accounts (with admin privilege)
+Retrieve Account Information (public/no credentials needed)
+Deposit and Withdraw Funds
+Transfer Funds between Accounts
+Show Account Balance
+Generate Account Statements
+Find Nearest Branch
+Contact Information
+Search by Customer Name
+Extras:
+Unique ID for each account.
+Search by customer name using list lookup.
+Central database for all customer accounts.
+Auto-generate account numbers.
+Use CSV for the database.
+Nearest branch asks for division (only in BD) and shows a made-up branch.
+Contact info shows branches, phone numbers, emails.
+Search should only care for the customer name.
+Admin login gives access to manage accounts, including adding, transferring, and hiding accounts.
+Every account should have properties: id, customer name, balance, account type, branch location.
+Class Diagram:
+plaintext
+Copy code
++---------------------+
+|      BankAccount    |
++---------------------+
+| - id: int           |
+| - customerName: String|
+| - balance: double    |
+| - accountType: String|
+| - branchLocation: String|
++---------------------+
+| + getters/setters   |
++---------------------+
+
++-----------------------------+
+|    BankAccountsCatalog      |
++-----------------------------+
+| - accounts: List<BankAccount>|
++-----------------------------+
+| + addAccount(account: BankAccount)|
+| + retrieveAccountInformation()   |
+| + depositFunds()                 |
+| + withdrawFunds()                |
+| + transferFunds()                |
+| + showAccountBalance()           |
+| + generateAccountStatement()     |
+| + findNearestBranch()            |
+| + contactInfo()                  |
+| + searchByCustomerName(name: String)|
++-----------------------------+
+
++----------------------+
+|   AdminCredentials   |
++----------------------+
+| - username: String   |
+| - password: String   |
++----------------------+
+| + getters/setters    |
++----------------------+
+Implementation Inheritance:
+plaintext
+Copy code
++------------------------+
+|   BankAccount          |  <-- Base class
++------------------------+
+| - id: int              |
+| - customerName: String|
+| - balance: double      |
+| - accountType: String  |
+| - branchLocation: String|
++------------------------+
+| + matchesCriterion():  |
++------------------------+
+
++------------------------+
+|    SavingsAccount      |  <-- Derived class
++------------------------+
+| - interestRate: double |
++------------------------+
+| Additional methods...  |
++------------------------+
+
++------------------------+
+|    CheckingAccount     |  <-- Derived class
++------------------------+
+| - overdraftLimit: double|
++------------------------+
+| Additional methods...  |
++------------------------+
+Design:
+Main class: CapitalBankingMain (handles program execution)
+Parent class: BankAccount (base class for different types of accounts)
+Subclasses: SavingsAccount, CheckingAccount, etc. (inherits from BankAccount)
+Group class: AdminTasks (manages admin privileges; add, subtract, change volume)
+Technicals:
+Interfaces:
+
+Use interfaces to define a contract for classes that perform specific tasks. For example, AdminTasks interface for admin-related functionalities.
+Implementation Inheritance:
+
+Use implementation inheritance (extending a class) when one class is a more specialized version of another. For example, SavingsAccount and CheckingAccount inherit from BankAccount.
+Overloading:
+
+Overload methods for various banking operations like depositing, withdrawing, and transferring funds.
+Overriding:
+
+Override the toString method in subclasses to provide detailed information about specific account types.
+Menus with Recursion:
+
+Implement a menu system to interact with the user, allowing them to choose different options. Use recursion to keep the menu prompting until the user chooses to exit.
+For-Each Loops:
+
+Use for-each loops to iterate over elements in a collection (e.g., a list of bank accounts) for displaying or managing accounts.
+Data Set:
+SavingsAccount: 1000
+CheckingAccount: 2000
+FixedDepositAccount: 3000
+BusinessAccount: 4000
+StudentAccount: 5000
+Data Access Type:
+Reading File Each Time:
+Advantages: Lower Memory Usage, Up-to-Date.
+Disadvantages: Slower Access, Increased I/O Operations.
+Additional Notes:
+Ensure that the IDs for each account are unique and follow a logical sequence.
+Implement proper error handling and input validation for user interactions.
+Consider security measures, especially for admin functionalities.
+Utilize meaningful variable and method names for better code readability.
