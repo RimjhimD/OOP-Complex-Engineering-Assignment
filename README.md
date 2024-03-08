@@ -9,7 +9,6 @@ Welcome to the City Bank Management System ! This Java application allows users 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
