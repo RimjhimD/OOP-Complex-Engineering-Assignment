@@ -1,0 +1,52 @@
+Bank Account Menu
+
+1. Create New Account
+2. Deposit Funds
+3. Withdraw Funds
+4. Apply Interest
+5. Show Transaction History
+6. Quit
+
+Enter choice: 1
+Select Account Type
+1. Checking Account
+2. Savings Account 
+Enter choice: 1    
+Enter Account Number: 1001
+Enter Transaction Fee: 2.50 
+
+Bank Account Menu
+
+1. Create New Account
+2. Deposit Funds
+3. Withdraw Funds
+4. Apply Interest
+5. Show Transaction History
+6. Quit
+
+Enter choice: 2
+Please enter account number: 1001
+Please enter Deposit Amount: 40000
+
+Bank Account Menu
+
+1. Create New Account
+2. Deposit Funds
+3. Withdraw Funds
+4. Apply Interest
+5. Show Transaction History
+6. Quit
+
+Enter choice: 5
+Please enter account number: 1001
+
+Bank Account Menu
+
+1. Create New Account
+2. Deposit Funds
+3. Withdraw Funds
+4. Apply Interest
+5. Show Transaction History
+6. Quit
+
+Enter choice: 6
