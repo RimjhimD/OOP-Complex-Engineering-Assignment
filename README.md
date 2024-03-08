@@ -66,10 +66,11 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 5. Push to the branch (`git push origin feature/your-feature`).
 6. Create a new Pull Request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-Feel free to customize this README file based on your specific project details and preferences. Happy coding!
+Feel free to make contributions, report issues, or suggest improvements. Your feedback is valuable and helps make this project better for everyone.
+Feel free to customize this README file based on your specific project details and preferences.
+
+
+Happy coding!
