@@ -1,6 +1,7 @@
 # Bank Management System 
 
-Welcome to the Bank Management System ! This Java application is designed as a part of the Object Oriented Programming course assignment at Premier University, Department of CSE. This system allows users to manage bank accounts, perform transactions, and track transaction history effectively.
+This Java application is designed as a part of the Object Oriented Programming course assignment at Premier University, Department of CSE. 
+This system allows users to manage bank accounts, perform transactions, and track transaction history effectively.
 
 ## Table of Contents
 
