@@ -1,1 +1,75 @@
-# OOP-Complex-Engineering-Assignments
+# City Bank Management System
+
+Welcome to the City Bank Management System repository! This Java application allows users to manage bank accounts, perform transactions, and track transaction history.
+
+## Table of Contents
+
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- Create different types of bank accounts: checking and savings accounts.
+- Perform deposit and withdrawal transactions on accounts.
+- Apply interest to savings accounts.
+- View transaction history for each account.
+
+## Prerequisites
+
+To run this application, you need to have the following installed on your machine:
+
+- Java Development Kit (JDK) 8 or higher
+- Git (optional, for cloning the repository)
+
+## Installation
+
+1. Clone the repository to your local machine using the following command:
+
+    ```
+    git clone https://github.com/your-username/city-bank-management-system.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```
+    cd city-bank-management-system
+    ```
+
+3. Compile the Java files:
+
+    ```
+    javac *.java
+    ```
+
+## Usage
+
+1. Run the main class `AccountDriver` to start the application:
+
+    ```
+    java AccountDriver
+    ```
+
+2. Follow the on-screen prompts to navigate through the application and manage bank accounts.
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Make your changes.
+4. Commit your changes (`git commit -am 'Add new feature'`).
+5. Push to the branch (`git push origin feature/your-feature`).
+6. Create a new Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Feel free to customize this README file based on your specific project details and preferences. Happy coding!
