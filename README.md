@@ -1,6 +1,6 @@
-# City Bank Management System
+# City Bank 
 
-Welcome to the City Bank Management System repository! This Java application allows users to manage bank accounts, perform transactions, and track transaction history.
+Welcome to the City Bank Management System ! This Java application allows users to manage bank accounts, perform transactions, and track transaction history.
 
 ## Table of Contents
 
