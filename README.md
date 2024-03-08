@@ -30,13 +30,13 @@ To run this application, you need to have the following installed on your machin
 1. Clone the repository to your local machine using the following command:
 
     ```
-    git clone https://github.com/your-username/city-bank-management-system.git
+    https://github.com/RimjhimD/OOP-Complex-Engineering-Assignment.git
     ```
 
 2. Navigate to the project directory:
 
     ```
-    cd city-bank-management-system
+    cd OOP-Complex-Engineering-Assignment
     ```
 
 3. Compile the Java files:
