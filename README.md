@@ -42,7 +42,7 @@ To run this application, you need to have the following installed on your machin
 3. Compile the Java files:
 
     ```
-    javac *.java
+    javac Bank Management System *.java
     ```
 
 ## Usage
