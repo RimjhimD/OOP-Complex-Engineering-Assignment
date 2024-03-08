@@ -1,0 +1,11 @@
+Checking Account created with Account Number: 1001 and Transaction Fee: $2.50
+
+Amount 40000.00 deposited
+Fee 2.50 Applied
+Current Balance is: 39997.50
+Deposit of $40000.00 successfully made to account 1001
+
+Transaction History for Account 1001:
+Transaction ID: 0, Type: DEPOSIT, Amount: $40000.0, Timestamp: 2024-03-09T00:56:57.662854
+
+Thank You for using CITY BANK !!!
